@@ -1,0 +1,223 @@
+
+body {
+  background-color: #98ddca;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', 'Ubuntu', sans-serif;
+
+}
+table {
+ width: 100%;
+}
+
+p, h4 {
+  color: white;
+}
+
+h1, h2,h3,h4,h5,h5 {
+  font-family: "Montserrat"
+}
+
+th, td {
+  text-align: center;
+}
+td {
+  padding: 15px;
+}
+
+img {
+  width: 100%;
+ border: 3px solid white;
+}
+
+
+.navbar-toggler {
+  color: black;
+}
+/* headings */
+
+
+.big-heading {
+  color: #ffaaa7;
+  font-size: 5rem;
+  line-height: 1.5;
+
+}
+
+.shop-image {
+  padding: 3% 7%;
+}
+
+.delivery {
+  text-align: left;
+    padding: 3% 7%;
+}
+/* navbar section */
+
+
+.navbar {
+  background-color:#98ddca;
+  font-size: 1.5rem;
+  padding:  1.5rem;
+ color: #ffaaa7;
+}
+
+.navbar .nav-item {
+  padding: 0 25px;
+
+}
+.navbar .navbar-brand {
+  color: #ffaaa7;
+  font-family: "Ubuntu";
+  font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar .nav-item .nav-link {
+
+  color: #ffaaa7;
+  font-weight: bold;
+}
+
+
+.navbar .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+
+/* gallery section */
+
+
+#gallery {
+  padding: 7% 15%;
+  text-align: center;
+  background-color:  #ffaaa7;
+}
+
+.carousel-inner {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+
+/* address section */
+
+#address {
+  padding: 0% 15% 7% 15%;
+  text-align: center;
+  background-color:  #ffaaa7;
+
+}
+
+.address {
+    color: #ffaaa7;
+  width: 50%;
+  background-color: #98ddca;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+
+
+
+/* hours section */
+
+#hours {
+  padding: 0% 15%;
+
+}
+.hours-boxes {
+  padding: 0;
+}
+
+.table{
+  border: 1px solid;
+  color: white;
+}
+.table1 {
+  position: relative;
+  right: 12px;
+}
+
+.tr1 {
+    background-color:#FFAAA7;
+    color: white;
+}
+
+.tr2 {
+    background-color: #98ddca;
+    color: black;
+}
+.middle {
+
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+/* LOCATION SECTION */
+
+
+
+
+.location1 {
+  color: #ffaaa7;
+  width: 50%;
+  background-color: #ffaaa7;;
+  padding: 20px;
+  border: 1px solid white;
+
+
+}
+
+.burgh-paragraph {
+  padding-top: 20px;
+}
+
+
+/* footer section */
+.bottom-section {
+  background-color: #98ddca;
+  line-height: 2;
+  padding: 20px 0 5px 0;
+
+}
+
+.footer-link {
+  color: gray;
+}
+.footer-link:hover {
+    color: black;
+}
+
+.fab {
+  padding: 10px;
+}
+
+
+/* RESPONSIVE SECTION */
+
+@media (max-width: 1028px) {
+  .delivery {
+    text-align: center;
+  }
+  .carousel-inner {
+  width: 80%;
+  }
+
+ .container-fluid {
+  width: 100%;
+}
+h2, h4 {
+  font-size: 3rem;
+}
+p, th, td, span, li, a {
+  font-size: 2rem;
+}
+
+}
