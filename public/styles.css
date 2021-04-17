@@ -70,7 +70,7 @@ img {
   color: #ffaaa7;
   font-family: "Ubuntu";
   font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 .navbar .navbar-brand:hover {
     color: #fff;
@@ -92,7 +92,7 @@ img {
 
 
 #gallery {
-  padding: 7% 15%;
+
   text-align: center;
   background-color:  #ffaaa7;
 }
@@ -103,6 +103,10 @@ img {
   width: 50%;
 }
 
+
+.carousel-item {
+  padding: 7% 15%;
+}
 
 
 /* address section */
